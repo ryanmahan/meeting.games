@@ -1,3 +1,3 @@
-export const lightPurple = "#D4CCFF";
-export const purple = "#BF99FF";
-export const orange = "#F7B267"
+export const purple = "#9966FF";
+export const ivory = "#FFFFF8";
+export const notBlack = "#333";

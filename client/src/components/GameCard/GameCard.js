@@ -1,10 +1,12 @@
 import { Card, Tag } from "antd";
 import styled from "styled-components";
 import React from "react";
+import { ivory } from "../../utils/colors"
 
 const StyledCard = styled(Card)`
   margin-top: 1vh;
   width: 100%;
+  background-color: ${ivory};
 `
 
 const betaTag = (title) => (
