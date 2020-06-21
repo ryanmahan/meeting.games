@@ -2,6 +2,9 @@ import express = require("express");
 import { Request, Response } from 'express';
 import loggerMiddleware from './middlewares/logging';
 import log4js from 'log4js';
+import connect from "./connect";
+
+connect("mongodb://localhost:27017")
 
 const app: express.Application = express();
 const logger = log4js.getLogger();
