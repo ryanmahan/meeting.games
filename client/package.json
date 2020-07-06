@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.2.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "antd": "^4.3.1",
+    "canvas-free-drawing": "^2.0.4",
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
     "react": "^16.13.1",
